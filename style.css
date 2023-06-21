@@ -1,0 +1,57 @@
+header {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(29, 29, 29);
+    height: 300px;
+}
+header > h1 {
+    text-align: center;
+    color: rgb(233, 233, 233);
+    padding-top: 15px;
+    font-size: 2.4em;
+    font-weight: bold;
+}
+/* Barra de navegação inicial */
+#procurar-itens {
+    background-color: rgba(255, 255, 255, 0);
+    display: flex;
+    height: 70px;
+    border: 2px solid rgb(136, 126, 60);
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+    padding: 10px;
+}
+#procurar {
+    width: 350px;
+    border-radius: 0px;
+    border: none;
+    font-size: 1.5em;
+    background-color: rgb(29, 29, 29)
+}
+#procurar::placeholder {
+    color: rgba(255, 255, 255, 0.712);
+}
+#procurar:focus-within {
+    box-shadow: none;
+    border: none;
+    color: white;
+}
+#btn {
+    border: none;
+    height: 50px;
+    background-color: rgba(240, 248, 255, 0);
+    width: 100px;
+    color: white;
+    font-size: 1.2em;
+    border: 1px solid rgb(136, 126, 60);
+}
+#btn:hover {
+    background-color: rgba(0, 0, 0, 0.514);
+}
+#lupa {
+    color:rgb(136, 126, 60);
+    margin: auto;
+    margin-left: 10px;
+}
