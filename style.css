@@ -3,6 +3,7 @@ header {
     flex-direction: column;
     background-color: rgb(29, 29, 29);
     height: 300px;
+    row-gap: 25px;
 }
 header > h1 {
     text-align: center;
@@ -20,8 +21,8 @@ header > h1 {
     width: 450px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 35px;
     padding: 10px;
+    position: relative;
 }
 #procurar {
     width: 350px;
@@ -54,4 +55,86 @@ header > h1 {
     color:rgb(136, 126, 60);
     margin: auto;
     margin-left: 10px;
+}
+
+
+
+
+/* ICONES */
+#icones {
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    column-gap: 15px;
+    margin-top: 15px;
+    width: 500px;
+    margin: auto;
+
+}
+#icone-1 {
+    display: block;
+    width: 35px;
+}
+#user, #msg, #mala {
+    margin: auto;
+    font-size: 2em;
+    color: white;
+}
+#msg {
+    font-size: 2em;
+}
+#mala {
+    font-size: 2em;
+    margin-bottom: 5px;
+}
+
+
+/* Segundo icone */
+
+
+#icone-2 {
+    position: relative;
+}
+#icone-2 > #n1 {
+    background-color: red;
+    border-radius: 50%;
+    position: relative;
+    top: -128%;
+    left: 42%;
+}
+#icone-2 > #n1 > p {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* Terceiro icone */ 
+
+#icone-3 {
+    position: relative;
+    margin-right: 10px;
+    display: flex;
+    column-gap: 10px;
+}
+#icone-3 > #n2 > p {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+#icone-3 > #n2 {
+    background-color: red;
+    width: 32px;
+    height: 31px;
+    position: absolute;
+    top: -32%;
+    left: 10%;
+    border-radius: 50%;
+}
+#n3 {
+    color: white;
+    font-size: 1.6em;
+    line-height: 57px;
+    font-weight: bolder;
+    margin-right: 20px;
 }
