@@ -11,7 +11,7 @@
     <script src="projeto-loja.js" defer></script>
     <title>Projeto Loja</title>
 </head>
-<body onresize="MonitorarLargura()">
+<body onresize="MonitorarLargura()" onload="Carregar()">
     <header>
         <h1>ProjetoLoja</h1>
         <div id="procurar-itens">
@@ -47,6 +47,15 @@
         <hr>
     </div>
     <nav id="nav-celular">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Produtos</a></li>
+            <li><a href="#">Promoções</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+    </nav>
+    <nav id="nav-desktop">
         <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#">Produtos</a></li>

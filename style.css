@@ -256,4 +256,34 @@ header > h1 {
     font-size: 2em;
     font-weight: bolder;
 }
+#nav-desktop {
+    background-color: rgb(224, 162, 55);
+    height:80px;
+}
+#nav-desktop > ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 20px;
+    height: 100%;
 
+}
+#nav-desktop > ul > li {
+    list-style-type: none;
+    height: 100%;
+    position: relative;
+}
+#nav-desktop > ul > li:hover {
+    background-color: rgb(226, 170, 73);
+     border-bottom-style: solid;
+     border-bottom-width: 5px;
+     border-bottom-color: white;
+     transition: all 0.1s ease-in;
+}
+#nav-desktop > ul > li > a {
+    text-decoration: none;
+    color: white;
+    font-size: 2em;
+    line-height: 80px;
+    font-weight: bolder;
+}
