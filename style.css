@@ -1,3 +1,6 @@
+body {
+    background-color: rgb(29, 29, 29);
+}
 header {
     display: flex;
     flex-direction: column;
@@ -98,7 +101,6 @@ header > h1 {
     margin-bottom: 5px;
 }
 
-
 /* Segundo icone */
 
 
@@ -112,6 +114,7 @@ header > h1 {
     width: 32px;
     top: -109%;
     left: 30%;
+    cursor: pointer;
 }
 #icone-2 > #n1 > p {
     color: white;
@@ -145,6 +148,7 @@ header > h1 {
     top: -10%;
     left: 6%;
     border-radius: 50%;
+    cursor:pointer;
 }
 #n3 {
     color: white;
@@ -155,6 +159,9 @@ header > h1 {
 }
 
 /* Breakpoints */ 
+
+
+
 
 @media screen and (min-width:1024px) and (max-width:1280px) {
     header {
@@ -214,7 +221,6 @@ header > h1 {
         margin-top: 44px;
         width: 200px;
     }
-
 }
 
 /* BREAKPOINTS */ 
@@ -223,7 +229,8 @@ header > h1 {
 /* BARRA DE NAVEGAÇÃO */
 
 #icone-hamb {
-    background-color: rgb(224, 162, 55);
+    background-color: #C19579;
+    cursor: pointer;
 }
 #icone-hamb > hr {
     height: 0.9px;
@@ -240,7 +247,7 @@ header > h1 {
     color: rgb(202, 201, 201);
 }
 #nav-celular {
-    background-color: rgb(224, 162, 55);
+    background-color: #C19579;
     display: none;
 }
 #nav-celular > ul {
@@ -257,7 +264,7 @@ header > h1 {
     font-weight: bolder;
 }
 #nav-desktop {
-    background-color: rgb(224, 162, 55);
+    background-color:#C19579;
     height:80px;
 }
 #nav-desktop > ul {
@@ -274,7 +281,7 @@ header > h1 {
     position: relative;
 }
 #nav-desktop > ul > li:hover {
-    background-color: rgb(226, 170, 73);
+    background-color: #daa889;
      border-bottom-style: solid;
      border-bottom-width: 5px;
      border-bottom-color: white;
@@ -287,3 +294,6 @@ header > h1 {
     line-height: 80px;
     font-weight: bolder;
 }
+
+
+/* SLIDERS */
