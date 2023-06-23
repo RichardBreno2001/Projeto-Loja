@@ -331,11 +331,12 @@ header > h1 {
     z-index: 1;
     position: relative;
     height: 300px;
+    padding: 1.3em;
 }
 
 .mini-banner {
-    width: 140px;
-    height: 270px;
+    width: 150px;
+    height: 200px;
     position: absolute;
     right: 1em;
     bottom: 1em;
@@ -351,6 +352,9 @@ header > h1 {
 }
 #mini-banner-2 {
     background-color: rgb(220, 173, 135);
+}
+#relogio-2 {
+    width: 125px;
 }
 #mini-banner-2 > h2 {
     color: rgb(239, 239, 239);
@@ -369,5 +373,34 @@ header > h1 {
 }
 .link-banner {
     color: white;
-    font-size: 2em;
+    font-size: 1.2em;
+}
+.link-banner:hover {
+    color: rgb(171, 171, 171);
+}
+
+@media screen and (min-width:1280px) {
+    .col-12 {
+        max-width: 30%;
+        z-index: 10;
+        margin-top: -8em;
+        height: 350px;
+    }
+    .row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .mini-banner {
+        width: 150px;
+        height: 200px;
+        position: absolute;
+        right: 0em;
+        bottom: 0em;
+    }
+    #relogio-1 {
+        width: 130px;
+    }
+
+
 }
