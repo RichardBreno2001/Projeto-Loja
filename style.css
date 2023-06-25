@@ -353,8 +353,11 @@ header > h1 {
 #mini-banner-2 {
     background-color: rgb(220, 173, 135);
 }
+#relogio-1 {
+    width: 130px;
+}
 #relogio-2 {
-    width: 125px;
+    width: 100px;
 }
 #mini-banner-2 > h2 {
     color: rgb(239, 239, 239);
@@ -401,6 +404,44 @@ header > h1 {
     #relogio-1 {
         width: 130px;
     }
+    #relogio-2 {
+        width: 120px;
+    }
 
 
+}
+
+@media screen and (min-width:1024px) and (max-width:1280px) {
+    .col-12 {
+        max-width: 30%;
+        z-index: 10;
+        margin-top: -8em;
+        height: 300px;
+    }
+    .row-col-12 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    #relogio-1 {
+        width: 100px;
+        height: 180px;
+    }
+    #relogio-2 {
+        width: 100px;
+        height: 180px;
+    }
+    #relogio-3 {
+        width: 100px;
+        height: 180px;
+    }
+    #mini-banner-1 > h2 {
+        font-size: 2em;
+    }
+    #mini-banner-2 > h2 {
+        font-size: 2em;
+    }
+    #mini-banner-3 > h2 {
+        font-size: 2em;
+    }
 }
