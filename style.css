@@ -323,8 +323,7 @@ header > h1 {
 
 /* Mini banners */ 
 
-.col-12 {
-    background-color: yellow;
+.mini {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -383,7 +382,7 @@ header > h1 {
 }
 
 @media screen and (min-width:1280px) {
-    .col-12 {
+    .mini {
         max-width: 30%;
         z-index: 10;
         margin-top: -8em;
@@ -405,14 +404,14 @@ header > h1 {
         width: 130px;
     }
     #relogio-2 {
-        width: 120px;
+        width: 110px;
     }
 
 
 }
 
 @media screen and (min-width:1024px) and (max-width:1280px) {
-    .col-12 {
+    .mini {
         max-width: 30%;
         z-index: 10;
         margin-top: -8em;
@@ -444,4 +443,20 @@ header > h1 {
     #mini-banner-3 > h2 {
         font-size: 2em;
     }
+}
+
+/* BEST SELLERS */
+
+.rbs {
+    height: 100px;
+    width: 70px;
+}
+#best-sellers {
+    display: flex;
+    flex-direction: column;
+}
+.best-sellers {
+    height: 350px;
+    background-color: yellow;
+    border: 2px solid black;
 }
