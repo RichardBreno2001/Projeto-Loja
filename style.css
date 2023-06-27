@@ -651,3 +651,100 @@ header > h1 {
 }
 
 /* NOVIDADES DE RELÓGIOS */
+#novidades-1 {
+    height: 150px;
+}
+#novidades-1 > h3 {
+    color: #C19579;
+    font-weight: bolder;
+    font-size: 2em;
+    text-align: center;
+    margin-top: 80px;
+    text-transform: uppercase;
+}
+#novidades-2 > .col-4 {
+    display: none;
+}
+#novidades-2 > .col-8 {
+    width: 100%;
+}
+#rbs-rlg-2 {
+    width: 90px;
+}
+@media screen and (min-width:1024px) and (max-width:1280px) {
+    #novidades-2 > .col-8 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    #rlg-rbs {
+        max-width: 30%;
+    }
+    #rbs-rlg-2 {
+        width: 90px;
+    }
+}
+
+
+
+
+@media screen and (min-width:1280px) {
+    #novidades-2 {
+        width: auto;
+    }
+    #novidades-2 > .col-4 {
+        display: block;
+        background-color: rgb(9, 9, 9);
+        max-width: 25%;
+        margin-right:  0px;
+        padding-right: 0px;
+    }
+    #novidades-2 > .col-8 {
+        width: 75%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-left:  0px;
+        padding-left: 0px;
+    }
+    #rlg-rbs {
+        max-width: 33.3%;
+    }
+    #novidades-1 > h3 {
+        font-size: 3em;
+    }
+    #novidades-2 > .col-4 > h4 {
+        color: rgb(68, 68, 68);
+        text-align: center;
+        padding-bottom: 15px;
+    }
+    #novidades-2 > .col-4 > h2 {
+        color: white;
+        font-size: 2.8em;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: bolder;
+        padding-bottom: 15px;
+    }
+    #novidades-2 > .col-4 > h3 {
+        color: #C19579;
+        text-align: center;
+    }
+    #novidades-2 > .col-4 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #rbs-rlg-2 {
+        width: 90px;
+    }
+    #rbs-rlg-3 {
+        width: 130px;
+    }
+}
