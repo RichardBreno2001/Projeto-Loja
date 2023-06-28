@@ -748,3 +748,136 @@ header > h1 {
         width: 130px;
     }
 }
+
+
+/* insta */
+.insta-2 {
+    height: 200px;
+    background-attachment: scroll;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 50%;
+    border: 2px solid rgb(0, 0, 0);
+    cursor: pointer;
+}
+.insta-2:hover {
+    border: 2px solid white;
+}
+#insta-1 {
+    margin-top: 50px;
+}
+#img-1 {
+    background-image: url('img/insta1.jpg');
+}
+#img-2 {
+    background-image: url('img/insta2.jpg');
+}
+#img-3 {
+    background-image: url('img/insta3.jpg');
+}
+#img-4 {
+    background-image: url('img/insta4.jpg');
+}
+#img-5 {
+    background-image: url('img/insta5.jpg');
+}
+#img-6 {
+    background-image: url('img/insta6.jpg');
+}
+.rd {
+    height: 300px;
+    border: 1px solid black;
+}
+#rd-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#rd-1 > a {
+    color: gray;
+    text-decoration: none;
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+#rd-1 > h2 {
+    color: rgb(220, 219, 219);
+    margin-top: 66px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+#rd-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#rd-2 > h2 {
+    color:  rgb(220, 219, 219);
+    font-weight: bolder;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+#rd-2 > p {
+    color: grey;
+    font-size: 1.4em;
+}
+#rd-2 > #num-loja {
+    color: #C19579;
+    font-weight: bolder;
+    font-size: 1.7em;
+}
+#rd-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#rd-3 > h2 {
+    color: rgb(220, 219, 219);
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    margin-top: 27px;
+}
+#rd-3 > a {
+    color: grey;
+    margin-bottom: 10px;
+    font-size: 1.4em;
+    text-decoration: none;
+}
+@media screen and (min-width:1024px) and (max-width:1280px) {
+    .insta-2 {
+        height: 400px;
+    }
+    .rd {
+        width: 33.3%;
+        height: 400px;
+    }
+}
+@media screen and (min-width:1280px) {
+    .insta-2 {
+        width: 16.6%;
+        height: 250px;
+        border: 0.8px solid rgb(0, 0, 0);
+    }
+    #insta {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .rd {
+        width: 33.3%;
+    }
+    #rd-1 > h2 {
+        font-size: 2.4em;
+    }
+    #rd-2 > h2 {
+        font-size: 2.4em;
+    }
+    #rd-3 > h2 {
+        font-size: 2.4em;
+    }
+    
+}
