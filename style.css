@@ -881,3 +881,16 @@ header > h1 {
     }
     
 }
+#final {
+    height: 150px;
+    text-align: center;
+}
+#final > p {
+    color: white;
+    margin-top: 50px;
+    font-size: 1.3em;
+}
+#final > p > a {
+    color: #C19579;
+    font-weight: bolder;
+}
